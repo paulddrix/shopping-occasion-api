@@ -1,6 +1,6 @@
 {
-  "name": "shopping-occasion",
-  "version": "0.0.1",
+  "name": "shopping-occasion-api",
+  "version": "0.0.2",
   "description": "Go shopping and let your friends tell you what to buy for the occasion",
   "main": "apiServer.js",
   "dependencies": {
