@@ -1,0 +1,29 @@
+{
+  "name": "shopping-occasion",
+  "version": "0.0.1",
+  "description": "Go shopping and let your friends tell you what to buy for the occasion",
+  "main": "apiServer.js",
+  "dependencies": {
+    "async": "1.2.0",
+    "body-parser": "^1.14.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.3",
+    "handyutils": "1.0.0",
+    "promise-redis": "0.0.5",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Paul Diederichs",
+  "license": "ISC"
+}
