@@ -1,7 +1,12 @@
 module.exports = (app, io) => {
 	const handyUtils = require('handyutils');
 	const redis = require('promise-redis')();
-	const client = redis.createClient(`redis://@${process.env.DB_HOST}:${process.env.DB_PORT}`);
+	const connectOpts = {
+		host: process.env.DB_HOST,
+		port: process.env.DB_PORT,
+		password: process.env.DB_PASS
+	};
+	const client = redis.createClient(connectOpts);
 	/*
 	LIST ITEMS
 	*/
