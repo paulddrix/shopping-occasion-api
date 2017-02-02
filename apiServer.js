@@ -12,7 +12,7 @@ if (!process.env.PORT) {
 // =-=-=-=-=-=-=-=-=-= Config vars =-=-=-=-=-=-=-=-=-=-=-=
 // Configuring CORS
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://shopping-occasion-1.herokuapp.com,http://shopping-occasion-2.herokuapp.com');
+  res.header('Access-Control-Allow-Origin', 'https://shopping-occasion-1.herokuapp.com, https://shopping-occasion-2.herokuapp.com');
   res.header('Access-Control-Allow-Headers', 'X-Requested-With, Content-Type, Authorization');
   next();
 });
