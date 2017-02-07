@@ -10,6 +10,7 @@
     "express": "^4.13.3",
     "handyutils": "1.0.0",
     "promise-redis": "0.0.5",
+    "randomatic": "^1.1.6",
     "socket.io": "^1.7.2"
   },
   "devDependencies": {
